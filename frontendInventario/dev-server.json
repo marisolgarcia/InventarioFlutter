@@ -1,0 +1,11 @@
+{
+  "serve": {
+    "builder": "@angular/build:dev-server",
+    "options": {
+      "allowedHosts": ["localhost"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    }
+  }
+}
